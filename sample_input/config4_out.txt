@@ -1,0 +1,149 @@
+Please enter the name of the configuration file:config4.txt
+The total number of k values to be tested is 5
+The total number of points in this file is 483
+
+For k-means clustering:
+For a k value of 7, here is the information regarding its clusters:
+Cluster 1 contains 53 points and the point 50 is closest to its centroid.
+Cluster 2 contains 82 points and the point 289 is closest to its centroid.
+Cluster 3 contains 106 points and the point 305 is closest to its centroid.
+Cluster 4 contains 40 points and the point 19 is closest to its centroid.
+Cluster 5 contains 75 points and the point 124 is closest to its centroid.
+Cluster 6 contains 79 points and the point 219 is closest to its centroid.
+Cluster 7 contains 48 points and the point 483 is closest to its centroid.
+The Dunn index for a k of 7 is 0.0453004
+For a k value of 8, here is the information regarding its clusters:
+Cluster 1 contains 51 points and the point 43 is closest to its centroid.
+Cluster 2 contains 46 points and the point 399 is closest to its centroid.
+Cluster 3 contains 98 points and the point 305 is closest to its centroid.
+Cluster 4 contains 40 points and the point 19 is closest to its centroid.
+Cluster 5 contains 51 points and the point 253 is closest to its centroid.
+Cluster 6 contains 79 points and the point 219 is closest to its centroid.
+Cluster 7 contains 48 points and the point 483 is closest to its centroid.
+Cluster 8 contains 70 points and the point 128 is closest to its centroid.
+The Dunn index for a k of 8 is 0.048535
+For a k value of 9, here is the information regarding its clusters:
+Cluster 1 contains 46 points and the point 46 is closest to its centroid.
+Cluster 2 contains 45 points and the point 399 is closest to its centroid.
+Cluster 3 contains 61 points and the point 307 is closest to its centroid.
+Cluster 4 contains 40 points and the point 190 is closest to its centroid.
+Cluster 5 contains 51 points and the point 253 is closest to its centroid.
+Cluster 6 contains 52 points and the point 474 is closest to its centroid.
+Cluster 7 contains 44 points and the point 83 is closest to its centroid.
+Cluster 8 contains 69 points and the point 128 is closest to its centroid.
+Cluster 9 contains 75 points and the point 426 is closest to its centroid.
+The Dunn index for a k of 9 is 0.0349651
+For a k value of 10, here is the information regarding its clusters:
+Cluster 1 contains 46 points and the point 46 is closest to its centroid.
+Cluster 2 contains 66 points and the point 273 is closest to its centroid.
+Cluster 3 contains 53 points and the point 372 is closest to its centroid.
+Cluster 4 contains 38 points and the point 189 is closest to its centroid.
+Cluster 5 contains 41 points and the point 171 is closest to its centroid.
+Cluster 6 contains 47 points and the point 470 is closest to its centroid.
+Cluster 7 contains 44 points and the point 83 is closest to its centroid.
+Cluster 8 contains 41 points and the point 133 is closest to its centroid.
+Cluster 9 contains 72 points and the point 342 is closest to its centroid.
+Cluster 10 contains 35 points and the point 390 is closest to its centroid.
+The Dunn index for a k of 10 is 0.029596
+For a k value of 11, here is the information regarding its clusters:
+Cluster 1 contains 42 points and the point 46 is closest to its centroid.
+Cluster 2 contains 69 points and the point 273 is closest to its centroid.
+Cluster 3 contains 52 points and the point 372 is closest to its centroid.
+Cluster 4 contains 35 points and the point 190 is closest to its centroid.
+Cluster 5 contains 41 points and the point 171 is closest to its centroid.
+Cluster 6 contains 39 points and the point 202 is closest to its centroid.
+Cluster 7 contains 40 points and the point 85 is closest to its centroid.
+Cluster 8 contains 41 points and the point 133 is closest to its centroid.
+Cluster 9 contains 48 points and the point 328 is closest to its centroid.
+Cluster 10 contains 60 points and the point 302 is closest to its centroid.
+Cluster 11 contains 16 points and the point 8 is closest to its centroid.
+The Dunn index for a k of 11 is 0.0188177
+
+For single-linkage clustering:
+Hierarchy level 0 with 483
+Hierarchy level 1 with 242 clusters inside and a Dunn index of 0.021827
+Hierarchy level 2 with 121 clusters inside and a Dunn index of 0.0204053
+Hierarchy level 3 with 61 clusters inside and a Dunn index of 0.0158766
+Hierarchy level 4 with 31 clusters inside and a Dunn index of 0.0158766
+Hierarchy level 5 with 16 clusters inside and a Dunn index of 0.0164893
+Hierarchy level 6 with 8 clusters inside and a Dunn index of 0.00873255
+Hierarchy level 7 with 4 clusters inside and a Dunn index of 0.00759264
+Hierarchy level 8 with 2 clusters inside and a Dunn index of 0.00759264
+Hierarchy level 9 with 1 clusters inside
+
+For complete-linkage clustering:
+Hierarchy level 0 with 483
+Hierarchy level 1 with 242 clusters inside and a Dunn index of 0.021827
+Hierarchy level 2 with 121 clusters inside and a Dunn index of 0.0194168
+Hierarchy level 3 with 61 clusters inside and a Dunn index of 0.0192875
+Hierarchy level 4 with 31 clusters inside and a Dunn index of 0.0170026
+Hierarchy level 5 with 16 clusters inside and a Dunn index of 0.0136691
+Hierarchy level 6 with 8 clusters inside and a Dunn index of 0.011767
+Hierarchy level 7 with 4 clusters inside and a Dunn index of 0.010649
+Hierarchy level 8 with 2 clusters inside and a Dunn index of 0.00928366
+Hierarchy level 9 with 1 clusters inside
+
+For k-medoid clustering:
+For a k value of 7, here is the information regarding its clusters:
+Cluster 1 contains 48 points and the point 46 is its medoid.
+Cluster 2 contains 87 points and the point 289 is its medoid.
+Cluster 3 contains 136 points and the point 353 is its medoid.
+Cluster 4 contains 40 points and the point 190 is its medoid.
+Cluster 5 contains 73 points and the point 122 is its medoid.
+Cluster 6 contains 55 points and the point 474 is its medoid.
+Cluster 7 contains 44 points and the point 83 is its medoid.
+The Dunn index for a k of 7 is 0.0315392
+For a k value of 8, here is the information regarding its clusters:
+Cluster 1 contains 46 points and the point 46 is its medoid.
+Cluster 2 contains 51 points and the point 395 is its medoid.
+Cluster 3 contains 130 points and the point 353 is its medoid.
+Cluster 4 contains 40 points and the point 190 is its medoid.
+Cluster 5 contains 48 points and the point 256 is its medoid.
+Cluster 6 contains 55 points and the point 474 is its medoid.
+Cluster 7 contains 44 points and the point 83 is its medoid.
+Cluster 8 contains 69 points and the point 128 is its medoid.
+The Dunn index for a k of 8 is 0.0315392
+For a k value of 9, here is the information regarding its clusters:
+Cluster 1 contains 45 points and the point 46 is its medoid.
+Cluster 2 contains 44 points and the point 399 is its medoid.
+Cluster 3 contains 63 points and the point 382 is its medoid.
+Cluster 4 contains 40 points and the point 190 is its medoid.
+Cluster 5 contains 52 points and the point 253 is its medoid.
+Cluster 6 contains 49 points and the point 470 is its medoid.
+Cluster 7 contains 43 points and the point 83 is its medoid.
+Cluster 8 contains 69 points and the point 128 is its medoid.
+Cluster 9 contains 78 points and the point 342 is its medoid.
+The Dunn index for a k of 9 is 0.0349651
+For a k value of 10, here is the information regarding its clusters:
+Cluster 1 contains 43 points and the point 46 is its medoid.
+Cluster 2 contains 74 points and the point 272 is its medoid.
+Cluster 3 contains 51 points and the point 372 is its medoid.
+Cluster 4 contains 38 points and the point 189 is its medoid.
+Cluster 5 contains 38 points and the point 171 is its medoid.
+Cluster 6 contains 46 points and the point 470 is its medoid.
+Cluster 7 contains 43 points and the point 83 is its medoid.
+Cluster 8 contains 40 points and the point 133 is its medoid.
+Cluster 9 contains 48 points and the point 326 is its medoid.
+Cluster 10 contains 62 points and the point 303 is its medoid.
+The Dunn index for a k of 10 is 0.0307072
+For a k value of 11, here is the information regarding its clusters:
+Cluster 1 contains 43 points and the point 46 is its medoid.
+Cluster 2 contains 74 points and the point 272 is its medoid.
+Cluster 3 contains 50 points and the point 372 is its medoid.
+Cluster 4 contains 35 points and the point 190 is its medoid.
+Cluster 5 contains 38 points and the point 171 is its medoid.
+Cluster 6 contains 37 points and the point 205 is its medoid.
+Cluster 7 contains 39 points and the point 84 is its medoid.
+Cluster 8 contains 40 points and the point 133 is its medoid.
+Cluster 9 contains 49 points and the point 323 is its medoid.
+Cluster 10 contains 62 points and the point 303 is its medoid.
+Cluster 11 contains 16 points and the point 8 is its medoid.
+The Dunn index for a k of 11 is 0.0307072
+
+The final analysis shows that:
+For k-means, a k value of 8 had the highest Dunn index of 0.048535
+For single-linkage clustering, a k value of 1 had the highest Dunn index of 0.021827
+For complete-linkage clustering, a k value of 1 had the highest Dunn index of 0.021827
+For k-means, a k value of 9 had the highest Dunn index of 0.0349651
+Complete!
+
