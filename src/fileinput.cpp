@@ -1,6 +1,6 @@
 #include "fileinput.h"
 
-#define DEBUG 0
+#define DEBUG 1
 
 FileInput::FileInput(){
   cout << "Please enter the name of the configuration file:";
@@ -77,7 +77,7 @@ void FileInput::parsePoints(){
       temp.x = stod(tempData.at(1));
       temp.y = stod(tempData.at(2));
       #if DEBUG==1
-      temp.Print();
+        temp.Print();
       #endif
     }catch(out_of_range oor){
       break;
@@ -92,10 +92,20 @@ void FileInput::debugLog(){
     cout << "input_name: " << input_name << endl;
     cout << "k_min: " << k_min << endl;
     cout << "k_max: " << k_max << endl;
+    printVector(points);
     cout << "=========================================\n" << endl;
   #endif
 }
 
+void FileInput::printVector(vector<Point> vec){
+  cout << "\n========== vec =========" << endl;
+  for(auto it = vec.begin(); it != vec.end(); ++it){
+    cout << "*it: ";
+    *it.Print();
+    cout << endl;
+  }
+  cout << endl;
+}
 int FileInput::getKmin() const { return k_min; }
 int FileInput::getKmax() const { return k_max; }
 vector<Point> FileInput::getPoints() const { return points; }

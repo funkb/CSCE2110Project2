@@ -25,6 +25,7 @@ class FileInput{
 		void parseData();
 		void parsePoints();
 		void debugLog();
+		void printVector(vector<Point>);
 
 		int getKmin() const;
 		int getKmax() const;
